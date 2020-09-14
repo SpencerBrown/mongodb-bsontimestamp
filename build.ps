@@ -1,0 +1,4 @@
+$Env:GOOS = "linux"; $Env:GOARCH = "amd64"; go build -o mongodb-bsontimestamp-linux github.com/SpencerBrown/mongodb-bsontimestamp
+$Env:GOOS = "windows"; $Env:GOARCH = "amd64"; go build -o mongodb-bsontimestamp-windows.exe github.com/SpencerBrown/mongodb-bsontimestamp
+$Env:GOOS = "darwin"; $Env:GOARCH = "amd64"; go build -o mongodb-bsontimestamp-macos github.com/SpencerBrown/mongodb-bsontimestamp
+.exe
